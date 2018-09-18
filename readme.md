@@ -1,4 +1,4 @@
-##Tarefas
+## Tarefas
 Automatizar com scripts tarefas de sistema operacional ou de administração de serviços. Implemente a automatização das 3 tarefas abaixo usando a linguagem de scripting de sua preferência:
 
 Tarefa 1 - criar e bloquear uma lista de 500 usuários alterando também duas propriedades do cadastro do usuário, por exemplo Nome e Cidade ou Diretório pessoal. Podem ser usados servidores Linux ou Windows para esta tarefa;
@@ -7,7 +7,7 @@ Tarefa 2 - criar um shellscript para automatizar a atribuição de grants em um 
 
 Tarefa 3- Instalar um sistema de VPN e criar um script de login automático no servidor e em um login por ssh;
 
-##Como usar
+## Como usar
 Detalhe: tornar os arquivos como executáveis (chmod +x) antes de usar
 
 A tarefa 1 está contemplada no script multiusers.sh, para ver como utilizar ele executa ./multusers.sh -h (chmod +x multusers.sh caso o arquivo não esteja como executável) exemplo: > ./multusers.sh -a -l -f newusers.txt -d /home/empregados -i "Temporario" * Esse comando ira criar todos os usuarios no arquivo newusers.txt com o diretorio pessoal sendo /home/empregados e o nome Temporario.
